@@ -25,9 +25,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-1. Emulator keeps loading
+* Emulator keeps loading
     potential solution: Tools -> AVD -> Wipe Data
-2.  Add or Remove Items caused null reference exception
+* Add or Remove Items caused null reference exception
     potential mistake : re-define instance var itemAdapter by accident
     potential solution : use the pre-defined one
     
