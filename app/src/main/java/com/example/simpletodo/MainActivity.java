@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        ItemsAdaptor itemsAdaptor = new ItemsAdaptor(items, onLongClickListener);
+        itemsAdaptor = new ItemsAdaptor(items, onLongClickListener);
         rvItem.setAdapter(itemsAdaptor);
         rvItem.setLayoutManager(new LinearLayoutManager(this));
 
