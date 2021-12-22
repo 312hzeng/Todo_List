@@ -32,6 +32,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 * Add or Remove Items caused null reference exception
 
     potential mistake : re-define instance var itemAdapter by accident
+    
     potential solution : use the pre-defined one
     
 
